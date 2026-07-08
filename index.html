@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Affiliate Store</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,Helvetica,sans-serif}
+body{background:#eaeded}
+.header{background:#131921;padding:12px;position:sticky;top:0;z-index:100}
+.search{width:100%;padding:12px 16px;border:none;border-radius:8px;font-size:16px}
+.container{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;padding:12px;max-width:1200px;margin:auto}
+.card{background:#fff;border-radius:10px;overflow:hidden;box-shadow:0 2px 6px rgba(0,0,0,.12);transition:.2s}
+.card:hover{transform:translateY(-3px)}
+.card img{width:100%;height:260px;object-fit:cover}
+.info{padding:10px}
+.title{font-size:15px;font-weight:600;line-height:1.4;height:42px;overflow:hidden}
+.rating{margin-top:8px;color:#ff9900;font-size:14px}
+.rating span{color:#555}
+.price{margin-top:8px;font-size:28px;font-weight:bold}
+.price small{font-size:16px;vertical-align:top}
+.mrp{margin-top:4px;font-size:14px;color:#555}
+.off{color:#CC0C39;font-weight:bold}
+.buy{display:block;text-align:center;margin-top:12px;background:#FFD814;color:#111;text-decoration:none;padding:12px;border-radius:24px;font-weight:bold;border:1px solid #FCD200}
+.buy:hover{background:#F7CA00}
+footer{background:#131921;color:#fff;text-align:center;padding:20px;margin-top:20px}
+</style>
+</head>
+<body>
+
+<div class="header">
+<input class="search" type="text" placeholder="Search products...">
+</div>
+
+<div class="container">
+
+<div class="card">
+<img src="images/shoes.jpg" alt="Shoes">
+<div class="info">
+<div class="title">Longwalk Solid White Sneakers for Men</div>
+<div class="rating">⭐⭐⭐⭐☆ <span>(415)</span></div>
+<div class="price"><small>₹</small>469</div>
+<div class="mrp">M.R.P. <del>₹1,198</del> <span class="off">(61% off)</span></div>
+<a class="buy" href="YOUR_AFFILIATE_LINK_1" target="_blank">Buy Now</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/kurti.jpg" alt="Kurti">
+<div class="info">
+<div class="title">Women's Designer Printed Kurti</div>
+<div class="rating">⭐⭐⭐⭐⭐ <span>(832)</span></div>
+<div class="price"><small>₹</small>599</div>
+<div class="mrp">M.R.P. <del>₹1,499</del> <span class="off">(60% off)</span></div>
+<a class="buy" href="YOUR_AFFILIATE_LINK_2" target="_blank">Buy Now</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/pant.jpg" alt="Jeans">
+<div class="info">
+<div class="title">Women's Wide Leg High Waist Denim Jeans</div>
+<div class="rating">⭐⭐⭐⭐☆ <span>(1,286)</span></div>
+<div class="price"><small>₹</small>899</div>
+<div class="mrp">M.R.P. <del>₹2,499</del> <span class="off">(64% off)</span></div>
+<a class="buy" href="YOUR_AFFILIATE_LINK_3" target="_blank">Buy Now</a>
+</div>
+</div>
+
+</div>
+
+<footer>
+© 2026 My Affiliate Store • Powered by GitHub Pages
+</footer>
+
+</body>
+</html>
